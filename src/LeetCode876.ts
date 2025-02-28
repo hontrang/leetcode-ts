@@ -8,7 +8,7 @@ function middleNode(head: ListNode | null): ListNode | null {
         slow = slow.next;
     }
     return slow;
-};
+}
 
 
 function main(): void {
